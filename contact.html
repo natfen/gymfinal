@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <title>AMAZING GYM | Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button" onclick="w3_close()"><i class="fa fa-remove"></i></button>
+  <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="aboutus.html" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="classes.html" class="w3-bar-item w3-button">CLASSES</a>
+  <a href="contact.html" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+  <div class="w3-center">
+  <h4>AMAZING GYM</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">"NO BITTER, NO SWEET"</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">READY TO COMMIT?</button>
+    </div>
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img src="img/workout4.jpeg" alt="gym workout" style="width:100%; height:auto; max-width:400px;">
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <form class="w3-container w3-card-4">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h2>Leave us your contact information!</h2>
+        <div class="w3-section">
+          <input class="w3-input" type="text" required>
+          <label>Name</label>
+        </div>
+        <div class="w3-section">
+          <input class="w3-input" type="text" required>
+          <label>Email</label>
+        </div>
+        <div class="w3-section">
+          <input class="w3-input" type="number" required>
+          <label>Number</label>
+        </div>
+
+        <div class="w3-row">
+        <div class="w3-half">
+          <input id="milk" class="w3-check" type="checkbox" checked="checked">
+          <label>Strength Training</label>
+          <br>
+          <input id="sugar" class="w3-check" type="checkbox">
+          <label>Cardio Training</label>
+          <br>
+          <input id="lemon" class="w3-check" type="checkbox" disabled>
+          <label>Gymnastics (Unavailable)</label>
+          <br><br>
+        </div>
+
+        <div class="w3-half">
+          <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked>
+          <label>Male</label>
+          <br>
+          <input id="female" class="w3-radio" type="radio" name="gender" value="female">
+          <label>Female</label>
+          <br>
+        </div>
+        </div>
+      </form>
+    </div>
+</div>
+<hr>
+
+<!--Gym Contact Information-->
+<header class="w3-container w3-black w3-border w3-center" style="margin-left:5%;margin-right:5%">
+  <h2>Our Contact Information</h2>
+</header>
+
+<div class="w3-padding w3-white w3-display-container w3-border w3-center w3-card-4" style="margin-left:5%;margin-right:5%">
+  <h2>Email</h2>
+  <p>amazinggym@gmail.com</p>
+  <h2>Phone Number (6:30am-10:30pm)</h2>
+  <p>+65 1234 5678</p>
+  <h2>Location (Open from 6:30am-10:30pm, Everyday)</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.1113395472429!2d103.6774342155842!3d1.349262175058239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f0b8f89b169%3A0x2d1fdb2f22ced6d4!2sNIE%20block%205%20(PE)!5e0!3m2!1sen!2ssg!4v1582100503736!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  <p>Fill out the Conctact Information at the bottom and we'll get in touch with you!</p>
+</div>
+
+<hr>
+<!--Contact Information-->
+<div class="w3-row-padding">
+<div class="w3-center" style="margin-left:10%; margin-right:10%">
+<form class="w3-container w3-card-4">
+  <h2>Leave us your contact information!</h2>
+  <div class="w3-section">
+    <input class="w3-input" type="text" required>
+    <label>Name</label>
+  </div>
+  <div class="w3-section">
+    <input class="w3-input" type="text" required>
+    <label>Email</label>
+  </div>
+  <div class="w3-section">
+    <input class="w3-input" type="number" required>
+    <label>Number</label>
+  </div>
+
+  <div class="w3-row">
+  <div class="w3-half">
+    <input id="milk" class="w3-check" type="checkbox" checked="checked">
+    <label>Strength Training</label>
+    <br>
+    <input id="sugar" class="w3-check" type="checkbox">
+    <label>Cardio Training</label>
+    <br>
+    <input id="lemon" class="w3-check" type="checkbox" disabled>
+    <label>Gymnastics (Unavailable)</label>
+    <br><br>
+  </div>
+
+  <div class="w3-half">
+    <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked>
+    <label>Male</label>
+    <br>
+    <input id="female" class="w3-radio" type="radio" name="gender" value="female">
+    <label>Female</label>
+    <br>
+  </div>
+  </div>
+</form>
+<br>
+
+<hr>
+  <!-- Footer -->
+<div class="w3-center">
+  <footer class="w3-container w3-theme-dark w3-padding-16">
+    <h3>Amazing Gym</h3>
+    <p>Brought to you by Nathaniel Tan</p>
+    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-theme-light w3-padding">Go To Top</span> 
+      <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+      <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+    <p>Remember to give an A+!</p>
+  </footer>
+</div>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+
+</body>
+</html>
